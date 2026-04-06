@@ -16,15 +16,17 @@ A tool designed to iteratively optimize LLM system prompts for token efficiency 
    pip install -r requirements.txt
    ```
 
-3. Set up Google API credentials:
-   ```bash
-   export GOOGLE_API_KEY=""
+3. Set up Google API credentials by adding your key to `.env`:
+   ```
+   GOOGLE_API_KEY=your-api-key
+   ```
 
 4. Run the script:
    ```bash
    python self-improvement.py
    ```
-3. The script will:
+
+5. The script will:
    - Generate an initial prompt from a high-level description.
    - Iteratively test the prompt against a sample question.
    - Critique and rewrite the prompt to reduce its length and the length of its responses.
