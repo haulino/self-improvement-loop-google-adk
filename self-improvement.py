@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from google.adk.agents import LoopAgent, LlmAgent, SequentialAgent
 from google.adk.tools.tool_context import ToolContext
 from google.adk.agents.callback_context import CallbackContext
