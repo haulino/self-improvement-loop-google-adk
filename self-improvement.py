@@ -6,7 +6,7 @@ from google.adk.tools.tool_context import ToolContext
 from google.adk.agents.callback_context import CallbackContext
 
 # --- Constants ---
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 # --- State Keys ---
 STATE_HIGH_LEVEL_DESC = "high_level_description"
